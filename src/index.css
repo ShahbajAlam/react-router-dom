@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding: 10px 0 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.register div {
+    display: flex;
+    flex-direction: column;
+}
+
+.register button {
+    width: 100px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.login div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login button {
+    width: 100px;
+}
